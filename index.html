@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/31c16b3922.js" crossorigin="anonymous"></script>
+    <link href="styles/main.css" rel="stylesheet" >
     <title>Three Star Project</title>
 </head>
 <body>
@@ -15,16 +16,18 @@
                     <img src="images/logo.png" alt="logo">
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li>
+                        <form>
+                        <input placeholder="search" type="search">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </li>
                 </ul>
-                <form>
-                    <input placeholder="search" type="search">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
             </div>
         </nav> <!--Nav ends here-->
 
@@ -37,7 +40,7 @@
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil 
                     laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
-                <a class="btn btn-primary" href="#">Connect with us <i class="fa-solid fa-play"></i></a>
+                <a  href="#"><button class="btn btn-primary">Connect with us <i class="fa-solid fa-play  ml-1"></i></button></a>
             </div>
         </div><!--Welcome container ends here-->
 
@@ -46,7 +49,7 @@
                 <div class="img-wrapper">
                     <img src="images/about-us.jpg" alt="ping-pong table">
                 </div>
-                <div>
+                <div class="text">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, 
                         maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
@@ -63,64 +66,76 @@
                     <div class="img-wrapper">
                         <img src="images/digital.jpg" alt="Person working on laptop">
                     </div>
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
-                        error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <a class="btn btn-secondary" href="#"> Digital Plans <i class="fa-solid fa-play"></i></a>
+                    <div class="p-1 content">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
+                            error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <a href="#"><button class="btn btn-secondary"> Digital Plans <i class="fa-solid fa-play  ml-1"></i></button></a>
+                    </div>
                 </div>
                 <div class="single-service">
                     <div class="img-wrapper">
                         <img src="images/marketing.jpg" alt="Laptop on a table">
                     </div>
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
-                        error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <a class="btn btn-secondary" href="#"> Marketing Plans <i class="fa-solid fa-play"></i></a>
+                    <div class="p-1 content">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
+                            error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <a href="#"> <button class="btn btn-secondary"> Marketing Plans <i class="fa-solid fa-play  ml-1"></i></button></a>
+                    </div>
                 </div>
                 <div class="single-service">
                     <div class="img-wrapper">
                         <img src="images/video.jpg" alt="Person holding phone">
                     </div>
+                    <div class="p-1 content">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
                         error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <a class="btn btn-secondary" href="#"> Video Plans <i class="fa-solid fa-play"></i></a>
+                    <a  href="#"><button class="btn btn-secondary"> Video Plans <i class="fa-solid fa-play  ml-1"></i></button></a>
+                    </div>
                 </div>
                 <div class="single-service">
                     <div class="img-wrapper">
                         <img src="images/web.jpg" alt="Phone on a book">
                     </div>
+                    <div class="p-1 content">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
                         error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <a class="btn btn-secondary" href="#"> Web Plans <i class="fa-solid fa-play"></i></a>
+                    <a  href="#"><button class="btn btn-secondary"> Web Plans <i class="fa-solid fa-play  ml-1"></i></button></a>
+                    </div>
                 </div>
                 <div class="single-service">
                     <div class="img-wrapper">
                         <img src="images/print.jpg" alt="Street view">
                     </div>
+                    <div class="p-1 content">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque 
                         error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <a class="btn btn-secondary" href="#"> Print Plans <i class="fa-solid fa-play"></i></a>
+                    <a  href="#"><button class="btn btn-secondary"> Print Plans <i class="fa-solid fa-play  ml-1"></i></button></a>
+                    </div>
                 </div>
             </div>
         </div><!--Services section ends here-->
 
         <div class="cta-bg">
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi 
-                veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-            <a class="btn btn-cta" href="#"> Learn More <i class="fa-solid fa-play"></i></a>
+            <div class="container">
+                <h3>Our Vision</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi 
+                    veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+                <a href="#"><button class="btn btn-cta"> Learn More <i class="fa-solid fa-play  ml-1"></i></button></a>
+            </div>
         </div>
 
         <div class="container">
             <h2>Our Team</h2>
-            <div class="team-member">
+            <div class="team-member row">
                 <div class="img-wrapper">
                     <img src="images/john.jpg" alt="Young man">
                 </div>
-                <div>
+                <div class="p-1 content">
                     <h3>John Doe</h3>
                     <h6>CEO and Co-owner</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. 
@@ -131,7 +146,7 @@
                 <div class="img-wrapper">
                     <img src="images/bob.jpg" alt="Young man wearing glasses">
                 </div>
-                <div>
+                <div class="p-1 content">
                     <h3>Bob Rite</h3>
                     <h6>CFO and Co-owner</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. 
@@ -141,7 +156,7 @@
         </div><!--Team section ends here-->
 
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2 class="margin-b">Contact Us</h2>
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <h3>Send us a message</h3>
@@ -153,17 +168,17 @@
                         <input type="email" id="email" name="email">
 
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5"></textarea>
+                        <textarea id="message" name="message" rows="7"></textarea>
 
                         <input class="submit-btn" type="submit" value="Send">
                     </form>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="d-none d-lg-block col-lg-6">
                     <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669761047442!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669761047442!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div>
+            <div class="my-1">
                 <h3>Hours of Operation</h3>
                 <table>
                     <tr>
@@ -180,13 +195,21 @@
                       </tr>
                 </table>
             </div>
+
+            <div class="d-lg-none d-block">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669761047442!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+              
         </div><!--Contact Us Section ends here-->
 
     </main> <!--Main content ends here-->
 
     <footer>
-        <p> &copy; Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="#">Unsplash</a></p>
+        <div class="container">
+            <p> &copy; Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="#"><u>Unsplash</u></a></p>
+        </div>
     </footer><!--Footer ends here-->
 </body>
 </html>
