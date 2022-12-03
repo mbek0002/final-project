@@ -173,7 +173,7 @@ form.header-form input[type=search] {
     .d-lg-flex{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
     }    
     
@@ -206,6 +206,7 @@ form.header-form input[type=search] {
     nav ul{
         display: flex;
         align-items: center;
+        justify-content: end;
         margin-bottom: 0;
         flex-wrap: wrap;
         padding: 0 0 0 1.5em;
