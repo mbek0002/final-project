@@ -1,7 +1,12 @@
-
 @font-face {
     font-family: OpenSans;
     src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+  }
+
+
+  @font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
   }
 
 :root{
@@ -29,6 +34,7 @@ ul{
 }
 
 h1, h2, h3, h4, h5, h6{
+    font-family: 'OpenSans-Bold', sans-serif;
     font-weight: bold;
     margin: 0;
 }
